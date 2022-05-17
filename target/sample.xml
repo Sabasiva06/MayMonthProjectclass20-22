@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.540832">
+<testcase classname="validating login fields" name="validating login With correct username and password" time="7.540832">
+<failure message="java.lang.AssertionError&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:86)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:41)&#13;&#10;&#9;at org.junit.Assert.assertTrue(Assert.java:52)&#13;&#10;&#9;at org.stepdef.StepDef.user_should_click_on_login_button(StepDef.java:43)&#13;&#10;&#9;at ✽.user should click on login button(src/test/resources/Login.feature:10)&#13;&#10;"><![CDATA[Given user is FB page on chrome browser.....................................passed
+When user enters username and password......................................passed
+And user should click on login button.......................................failed
+Then user need to verify home page is vissible or not.......................skipped
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at org.stepdef.StepDef.user_should_click_on_login_button(StepDef.java:43)
+	at ✽.user should click on login button(src/test/resources/Login.feature:10)
+]]></failure>
+</testcase>
+</testsuite>
